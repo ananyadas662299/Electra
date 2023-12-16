@@ -1,0 +1,106 @@
+.descriptionbox{
+    margin: 2vh 5vw;
+}
+.descriptionbox-navigator{
+    display: flex;
+}
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: 600;
+    width: 25vh;
+    height: 5vw;
+    border: 1px solid #d0d0d0;
+}
+.descriptionbox-nav-box.fade{
+background: #FBFBFB;
+color: #555;
+}
+.desciptionbox-description {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    border: 1px solid #D0D0D0;
+    padding: 4vh;
+    padding-bottom: 4vw;
+}
+
+@media screen and (max-width: 450px) {
+    .descriptionbox{
+        margin: 12vh 17vh;
+        width: 100vh;
+        height: 100vh;
+        position: relative;
+        bottom: 35vw;
+        right: 8vh;
+    }
+    .descriptionbox-navigator{
+        display: flex;
+    }
+    .descriptionbox-nav-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6vh;
+        font-weight: 600;
+        width: 47vh;
+        height: 40vw;
+        border: 1px solid #d0d0d0;
+    }
+    .descriptionbox-nav-box.fade{
+    background: #FBFBFB;
+    color: #555;
+    }
+    .desciptionbox-description {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        border: 1px solid #D0D0D0;
+        padding: 4vh;
+        padding-bottom: 9vw;
+    }
+    .desciptionbox-description{
+        font-size: 5vh;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 1024px){
+    .descriptionbox{
+        margin: 12vh 17vh;
+        width: 120vh;
+        height: 120vh;
+        position: relative;
+        bottom: 35vw;
+        right: 8vh;
+    }
+    .descriptionbox-navigator{
+        display: flex;
+    }
+    .descriptionbox-nav-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6vh;
+        font-weight: 600;
+        width: 47vh;
+        height: 40vw;
+        border: 1px solid #d0d0d0;
+    }
+    .descriptionbox-nav-box.fade{
+    background: #FBFBFB;
+    color: #555;
+    }
+    .desciptionbox-description {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        border: 1px solid #D0D0D0;
+        padding: 4vh;
+        padding-bottom: 9vw;
+    }
+    .desciptionbox-description{
+        font-size: 5vh;
+    }   
+}

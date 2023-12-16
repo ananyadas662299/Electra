@@ -1,0 +1,102 @@
+.relatedproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    height: 100vh;
+    
+}
+.relatedproducts h1{
+    color: #171717;
+    font-size: 7vh;
+    font-weight: 600;
+}
+.relatedproducts hr{
+    width: 30vh;
+    height: 0.1vw;
+    border-radius: 10vh;
+    background: #252525;
+}
+.relatedproduct-item{
+    margin-top: 5vw;
+    display: flex;
+    gap: 4vw;
+   
+}
+
+@media screen and (max-width: 450px) {
+    .relatedproducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+        height: 300vh;
+        width: 190vh;
+    }
+    .relatedproducts h1{
+        color: #171717;
+        font-size: 11vh;
+        font-weight: 600;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .relatedproducts hr{
+        width:60vh;
+        height: 3vh;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       
+        border-radius: 10vh;
+        background: #252525;
+    }
+    .relatedproduct-item{
+        margin-top: 50vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60vh;
+      
+      
+    }
+}
+
+@media (min-width: 450px) and (max-width: 1024px){
+    .relatedproducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+        height: 200vh;
+        width: 290vh;
+        position: relative;
+        top: -50vh;
+    }
+    .relatedproducts h1{
+        color: #171717;
+        font-size: 15vh;
+        font-weight: 600;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .relatedproducts hr{
+        width:70vh;
+        height: 30vh;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       
+        border-radius: 10vh;
+        background: #252525;
+    }
+    .relatedproduct-item{
+        margin-top: 10vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 80vh;
+        row-gap: 20vh;
+       
+      
+    }
+}
